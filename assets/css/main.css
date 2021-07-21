@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body {
     font-family: 'Quicksand', sans-serif;
     overflow-x: hidden;
@@ -49,7 +48,7 @@ body {
     width: 100vw;
     z-index: 3;
     padding: 0 35px;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .header,
@@ -86,11 +85,11 @@ body {
 }
 
 .header .contact {
-    color: #333;
+    color: #fff;
     text-decoration: none;
     font-size: 16px;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header .contact:hover {
@@ -112,8 +111,8 @@ body {
 }
 
 .header li a {
-	font-family: 'Open Sans', sans-serif;
-    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
     text-decoration: none;
     display: block;
     padding: 10px 10px;
@@ -261,12 +260,22 @@ body {
     }
     #nav-menu ul.menu li {
         font-weight: 500;
-        font-size: 10px;
+        font-size: 11px;
         text-transform: uppercase;
     }
     #nav-menu ul.menu li a {
         border-right: none;
         padding: 8px 15px;
+    }
+    .header .menu-icon .navicon:before,
+    .header .menu-icon .navicon:after {
+        background-color: #fff;
+    }
+    .header .menu-icon .navicon {
+        background-color: #fff;
+    }
+    .header li a {
+        color: #000;
     }
 }
 
